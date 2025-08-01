@@ -9,9 +9,10 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   plugins: [
-    react(),
-    mode === 'development' &&
-  ].filter(Boolean),
+    react()
+    // You can add conditional plugins like this:
+    // ...(mode === 'development' ? [someDevPlugin()] : [])
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
