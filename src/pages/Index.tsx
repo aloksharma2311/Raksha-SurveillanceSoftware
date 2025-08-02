@@ -21,7 +21,7 @@ const Index = () => {
               <Shield className="h-12 w-12 sm:h-16 sm:w-16 text-primary" />
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              SecureVision
+              Raksha
               <span className="block text-primary mt-2">AI Surveillance System</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto px-4">
